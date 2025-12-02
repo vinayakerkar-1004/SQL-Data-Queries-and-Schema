@@ -1,0 +1,11 @@
+USE startersql;
+-- SELECT * FROM users;
+-- SELECT * FROM users WHERE gender="Female";
+--  SELECT * FROM users WHERE gender="Male";
+-- SELECT * FROM users WHERE gender!="Female";
+-- SELECT * FROM users WHERE gender="Male";
+-- SELECT * FROM users WHERE date_of_birth<'1995-09-09';
+-- SELECT * FROM users WHERE id>10;
+-- SELECT * FROM users WHERE date_of_birth BETWEEN'1995-09-09' AND '1999-09-09';
+-- SELECT * FROM users WHERE gender IN('male', 'Female');
+SELECT * FROM users WHERE gender='Female' AND salary>'70000';
